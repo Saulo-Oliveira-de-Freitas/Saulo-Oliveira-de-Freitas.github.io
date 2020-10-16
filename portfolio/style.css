@@ -1,0 +1,130 @@
+@import url("https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+header{
+    background-color: darkgray;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+}
+
+header.sticky{
+    padding: 20px 100px;    
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1)
+}
+
+header .Logo{
+    color: #000000;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+   list-style: none;
+}
+
+header ul li a {
+   position: relative; 
+   display: inline-block;
+   margin: 0 15px;
+   color: #000000;
+   text-decoration: none;
+
+}
+
+
+section{
+    padding: 100px;
+}
+
+.ImgSaulo{
+    width: 50%;
+}
+
+.Banner{
+    position: relative;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.Banner h2{
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.Banner h2 span{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.Banner h3{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.Button{
+    position: relative;
+    background: #fc8f00;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font: 18px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.Heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.Heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContentBox h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.W50{
+min-width: 50%;
+}
+
